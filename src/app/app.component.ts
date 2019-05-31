@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import * as legacyScript from './legacy_script';
+
+console.log(legacyScript);
 
 @Component({
   selector: 'app-root',
